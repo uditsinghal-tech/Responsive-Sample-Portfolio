@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Poppins&display=swap');
+body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	overflow-x:hidden;
+	font-family: 'Lato', sans-serif;
+}
+.navbar{
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:700;
+	background: rgba(0,0,0,0.6) !important;
+	padding: 20px 0;
+	margin:0;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:#fff;
+	padding-left:20px;
+} 
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#1ebba3;
+}
+.heading-content{
+	position:absolute;
+	top:35%;
+	width:100%;
+	max-width:100%;
+}
+.heading-content h5{
+	font-size:4em;
+	font-weight:400;
+	color: #000000;
+	font-family:monospace;
+}
+.heading-content h1{
+	font-size:5em;
+	font-weight:bolder;
+	color: #000000;
+	font-family:'Montserrat', sans-serif;
+}
+.heading-content p{
+	font-size:4em;
+	font-weight:400;
+	font-weight:300;
+	color: #000000;
+	font-family:monospace;
+}
+#about .btn{
+border:2px solid transparent;
+width:40%;
+padding:15px 22px;
+background:#000;
+border-radius:5px;
+margin-top:10px;
+}
+#about .btn a{
+	color:#fff;
+	text-decoration:none;
+	font-size:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#about .btn:hover{
+	border:2px solid #1ebba3;
+	cursor:pointer;
+}
+#portfolio .button{
+border:2px solid transparent;
+width:40%;
+padding:15px 22px;
+background:#000;
+border-radius:5px;
+margin-top:10px;
+}
+#portfolio .button a{
+	color:#fff;
+	text-decoration:none;
+	font-size:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#portfolio .button:hover{
+	border:2px solid #1ebba3;
+	cursor:pointer;
+}
+.offset:before{
+	display:block;
+	content:"";
+	height:6rem;
+}
+@media screen and (max-width: 767px){
+.navbar{
+	padding: 10px 0;
+}
+.heading-content h5{
+	font-size:2em;
+}
+.heading-content h1{
+	font-size:3em;
+
+}
+.heading-content p{
+	font-size:2em;
+}
+}
+@media screen and (max-width: 479px){
+.navbar{
+	padding: 7px 0;
+}
+.heading-content h5{
+	font-size:1em;
+}
+.heading-content h1{
+	font-size:2em;
+
+}
+.heading-content p{
+	font-size:1em;
+}
+#contact .post-heading h3{
+	font-size:2em;
+}
+
+}
+
